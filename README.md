@@ -18,21 +18,23 @@ or the game are equal.
 
 The game starts by parsing the contents of a txt file that is passed as input from the console. 
 The format of the file is as follows:
-- The first row contains two numbers that determine the number of rows and columns of the board
+- The first row contains two numbers separated by a space that determine the number of rows and 
+  columns of the board
 - The rest of the rows are a grid of "." (denoting dead cells), "1" (denoting living cells owned
 by player 1) and  "2" (living cells denoted by player 2).
 Below is an example of a file:
-10 10
-..........
-..1..11...
-...1..22..
-..111..21.
-...22.....
-.......22.
-......2112
-.......22.
-....11....
-12........
+
+ 10 10
+ ..........
+ ..1..11...
+ ...1..22..
+ ..111..21.
+ ...22.....
+ .......22.
+ ......2112
+ .......22.
+ ....11....
+ 12........
 
 
 
